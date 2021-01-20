@@ -28,4 +28,4 @@
 
 
 ## Notes
-### 
+### Exercise 1 -  based on https://www.freecodecamp.org/news/html-basics-for-beginners/

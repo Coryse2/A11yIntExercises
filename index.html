@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--It's necessary to precise the language, if not the screenreader will read with an unpropriate accent-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Recipe</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <img src="#" alt="logo"/>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#ingredients">Ingredients</a>
+                </li>
+                <li>
+                    <a href="#steps">Steps</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <main>All Good Pancakes</main>
+        <h1>
+            <!-- alt must be present on all images, even if it can remain empty (for purely decorative images). 
+                It is used to bring the same information as the image (usually the text it bears) into the page code.-->
+            <!-- Without this attribute the screen reader reads the link of the image, 
+                it doesn't give the appropriate information to the user and it's tedious -->
+            <img src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502"
+            alt="pancake"
+            width="250"
+            />
+        </h1>
+        <h2 id="ingredients">Ingredients</h2>
+        <ul>
+            <!-- https://www.accede-web.com/notices/interface-riche/cases-a-cocher-personnalisees-en-css/-->
+            <!--The novalidate attribute is a boolean attribute. 
+                When present, it specifies that the form-data (input) should not be validated when submitted. -->
+            <li><input type="checkbox" id="ingredient1" novalidate /> 
+                <label for="ingredient1"> 1 ½ cups all-purpose flour </label></li>
+            <li><input type="checkbox" id="ingredient2" novalidate/>
+                <label for="ingredient2"> 3 ½ teaspoons baking powder</label></li>
+            <li><input type="checkbox" id="ingredient3" novalidate />
+                <label for="ingredient3"> 1 teaspoon salt</label></li>
+            <li><input type="checkbox" id="ingredient4" novalidate/>
+                <label for="ingredient4"> 1 tablespoon white sugar</label></li>
+            <li><input type="checkbox" id="ingredient5"  novalidate/>
+                <label for="ingredient5"> 1 ¼ cups milk</label></li>
+            <li><input type="checkbox" id="ingredient6" novalidate/>
+                <label for="ingredient6"> 1 egg</label></li>
+        </ul>
+        <h3 id="steps">Steps</h3>
+        <ol>
+            <li>Step 1</li>
+            <p>
+                In a large bowl, sift together the flour, baking powder, salt and sugar.
+                Make a well in the center and pour in the milk, egg and melted butter;
+                mix until smooth.
+            </p>
+            <li>Step 2</li>
+            <p>
+                Heat a lightly oiled griddle or frying pan over medium-high heat. Pour
+                or scoop the batter onto the griddle, using approximately 1/4 cup for
+                each pancake. Brown on both sides and serve hot.
+            </p>
+        </ol>
+
+        <!--TODO-->
+<button id="made" type="submit">I Made It</button>
+<button id="print" type="submit">Print</button>
+
+    <footer>
+       <h4 id="suscription">Suscribe</h4>
+       <!-- the "required" attribute=The easiest HTML5 validation feature to use. 
+         When this attribute is set, the form will not be submitted (and will display an error message) 
+         if the entry is empty (the entry will also be considered invalid).-->
+        <form onsubmit="alert('Suscribed')" aria-required="true">
+        
+        <input type="text" id="suscribe" placeholder="Enter Email Address"/>
+        <!--TODO : hide with CSS . cf. https://a11y-guidelines.orange.com/fr/web/exemples-de-composants/formulaires/ -->
+        <label  class="sr-only" for="suscribe">Enter Email Address</label>
+        <button id="submit" type="submit" >Submit</button>
+        </form>
+        <br/>
+        <span>&copy; Dakota Kelly at Allrecipe.com </span>
+    </footer>
+</body>
+
+</html>
