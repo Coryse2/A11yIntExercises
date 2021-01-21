@@ -21,11 +21,15 @@
 ## Resources
 ### https://www.w3.org/TR/wai-aria-practices/#ariaform
 ### https://www.w3.org/TR/wai-aria/#aria-label
+### https://www.w3.org/TR/wai-aria-1.1/#roles
+### https://github.com/w3c/aria-practices/
+
 ### https://www.accede-web.com/notices/ 
 ### https://a11y-guidelines.orange.com/fr/web/exemples-de-composants/formulaires/ 
 ### https://a11y-guidelines.orange.com/fr/articles/attributs-aria-qui-peuvent-vous-sauver/
 ### https://www.alsacreations.com/astuce/lire/1166-alt-title-images-liens.html
 
+### https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-textes-et-larriere-plan/#charte-graphique-alternative
 
 ## Notes
-### Exercise 1 -  based on https://www.freecodecamp.org/news/html-basics-for-beginners/
+### Exercise 1 -  based on https://www.freecodecamp.org/news/html-basics-for-beginners/  + Model : https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/
