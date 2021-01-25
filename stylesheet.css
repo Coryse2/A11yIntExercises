@@ -1,6 +1,15 @@
 
 /*TODO  https://a11y-guidelines.orange.com/fr/web/exemples-de-composants/zoom/*/
+/*It is better to use rem for the font size because it will permit the zoom (on the contrary of px or em */
 
+/*FONTS */
+/*http://www.pompage.net/traduction/ameliorer-l-accessibilite-par-la-typographie*/
+
+
+main a:hover,
+main a:focus {
+   text-decoration: none;
+}
 
 ul{
     list-style: none ;
