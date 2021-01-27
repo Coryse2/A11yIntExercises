@@ -1,5 +1,9 @@
 # A11y exercises
 
+## Notes
+#### Exercise 1 -  based on https://www.freecodecamp.org/news/html-basics-for-beginners/  + Model : https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/
+
+
 ## Why?
 ### My objective is to learn how to create accessible web content
 
@@ -53,5 +57,4 @@
 ### Testing tools
 #### https://www.w3.org/WAI/ER/tools/
 
-## Notes
-#### Exercise 1 -  based on https://www.freecodecamp.org/news/html-basics-for-beginners/  + Model : https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/
+
