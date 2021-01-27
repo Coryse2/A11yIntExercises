@@ -1,5 +1,11 @@
 # A11y exercises
 
+
+## Notes
+
+#### Exercise 2 - based on the Udacity training course https://classroom.udacity.com/courses/ud891 Web accessibility + The exercise comes from this repository : https://github.com/udacity/ud891 - I made the modifications in the index.html to do the exercise but I am not the author 
+
+
 ## Why?
 ### My objective is to learn how to create accessible web content
 
@@ -52,7 +58,5 @@
 ### Testing tools
 #### https://www.w3.org/WAI/ER/tools/
 
-## Notes
-#### Exercise 1 -  based on https://www.freecodecamp.org/news/html-basics-for-beginners/  + Model : https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/
-#### Exercise 2 - based on the Udacity training course https://classroom.udacity.com/courses/ud891 Web accessibility + The exercise comes from this repository : https://github.com/udacity/ud891 - I made the modifications in the index.html to do the exercise but I am not the author 
+
 
