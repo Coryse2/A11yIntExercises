@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <img src="#" alt="logo of the website" />
+        <img src="logo.svg" alt="logo of the website" width=10% />
 
         <!-- make a main menu and a sub-menu
             using the list is important for people using a screen reader cf.
@@ -42,9 +42,11 @@
         <img src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502" alt="pancake" width="250" />
     </h1>
 
+    <h2>Vous êtes <span id="count"></span> à aimer cette recette </h2>
+
     <!--TODO =mouse & keybord interactivity
         https://a11y-guidelines.orange.com/fr/web/exemples-de-composants/listbox-avec-cases-a-cocher/-->
-    <h2 id="ingredientsList">Ingredients</h2>
+    <h3 id="ingredientsList">Ingredients</h3>
     <ul aria-labelledby="ingredientsList" role="listbox">
         <!-- https://www.accede-web.com/notices/interface-riche/cases-a-cocher-personnalisees-en-css/-->
 
@@ -73,7 +75,7 @@
         If you don't want it to be checked when you click on the text you should leave the label tag empty e.g. <label for="check1"></label>.-->
  
     </ul>
-    <h3 id="steps">Steps</h3>
+    <h4 id="steps">Steps</h4>
     <ol>
         <li>Step 1</li>
         <p>
@@ -91,11 +93,12 @@
 
     <!--TODO-->
 
-    <button id="made" type="submit">I Made It</button>
-    <button id="print" type="submit">Print</button>
+    <button id="made" type="submit" title="Click if you made this recipe">I Made It</button>
+    <button id="like" type="submit" title="Click if you like this recipe">I Like It</button>
+    <button id="print" name ="print" aria-label="Click to print the recipe, it will open the printing box" type="submit" onclick="print_page()">Print</button>
 
     <footer>
-        <h4 id="suscription">Suscribe</h4>
+        <h5 id="suscription">Suscribe</h5>
         <!-- the "required" attribute=The easiest HTML5 validation feature to use. 
          When this attribute is set, the form will not be submitted (and will display an error message) 
          if the entry is empty (the entry will also be considered invalid).-->

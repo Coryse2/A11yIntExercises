@@ -30,6 +30,7 @@
 #### https://a11y-guidelines.orange.com/fr/articles/attributs-aria-qui-peuvent-vous-sauver/
 #### https://www.alsacreations.com/astuce/lire/1166-alt-title-images-liens.html
 #### https://openclassrooms.com/en/courses/6663461-code-an-accessible-website-in-html-css/7123466-get-the-most-out-of-this-course
+#### https://a11y-guidelines.orange.com/fr/articles/attributs-aria-qui-peuvent-vous-sauver/
 
 ### Forms
 #### https://a11y-guidelines.orange.com/fr/web/exemples-de-composants/formulaires/

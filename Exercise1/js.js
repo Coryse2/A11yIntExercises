@@ -44,3 +44,21 @@ $("[role=listbox]").on("keydown", function (e) {
   
     }
   });
+
+  /*Print the page with win */
+  function print_page(){
+      window.print();
+  }
+
+  /*TODO */
+  /*Count the clics*/
+  count : function(){
+
+    var count=0
+    document.getElementById("like").onclick=function(){
+          count += count;
+          listTitle.innerHTML = count
+        }
+      }
+  
+  
