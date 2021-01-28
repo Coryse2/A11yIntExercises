@@ -3,8 +3,8 @@
 
 ## Notes
 
-#### Exercise 2 - based on the Udacity training course https://classroom.udacity.com/courses/ud891 Web accessibility + The exercise comes from this repository : https://github.com/udacity/ud891 - I made the modifications in the index.html to do the exercise but I am not the author 
-
+#### Exercise 2 - based on the Udacity training course https://classroom.udacity.com/courses/ud891 Web accessibility + The exercise comes from this repository : https://github.com/udacity/ud891 - I made the modifications in the index.html to do the exercise but I am not the author of the files 
+https://www.youtube.com/watch?v=o5I5JbDILaA 
 
 ## Why?
 ### My objective is to learn how to create accessible web content
